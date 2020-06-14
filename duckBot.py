@@ -97,5 +97,6 @@ async def send_goose_link(ctx, *, arg):
 
     await ctx.send(msg)
 
-bot.run(TOKEN)
 
+if __name__ == "__main__":
+    bot.run(TOKEN)
